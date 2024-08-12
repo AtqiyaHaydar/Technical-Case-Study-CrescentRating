@@ -1,21 +1,25 @@
 import React from 'react'
 
 const navItems = [
-  { label: "About Me" },
-  { label: "Projects" },
-  { label: "Achievements" },
-  { label: "Services" },
-  { label: "Contact" }
+  { label: "ABOUT ME" },
+  { label: "PROJECTS" },
+  { label: "ACHIEVEMENTS" },
+  { label: "SERVICES" },
+  { label: "CONTACT" }
 ]
 
 const Navbar = () => {
   return (
-    <nav className='border-b bg-white'>
-      {navItems.map(item => {
-        <div key={item.label}>
-          {item.label}
-        </div>
-      })}
+    <nav className='bg-white'>
+      <ul className='flex wrapper py-6 text-black font-bold w-full justify-center items-center gap-x-12'>
+        {navItems.map((item, index) => {
+          return (
+            <li key={index}>
+              {item.label}
+            </li>
+          )
+        })}
+      </ul>
     </nav>
   )
 }

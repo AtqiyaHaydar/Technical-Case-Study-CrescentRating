@@ -1,5 +1,5 @@
 # Name : Atqiya Haydar Luqman
-# Email : 13522163@std.stei.itb.ac.id
+# Email : ashford1524@gmail.com
 
 # Script for showing up the name and value in the class
 

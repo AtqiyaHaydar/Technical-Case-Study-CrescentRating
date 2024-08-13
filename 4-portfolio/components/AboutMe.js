@@ -8,7 +8,7 @@ const AboutMe = () => {
   return (
     <div className='flex flex-col items-start gap-y-12'>
       <h3 className='text-black/50 text-xl'>A B O U T  M E</h3>
-      <div className='flex items-center justify-between gap-x-12'>
+      <div className='flex flex-col md:flex-row items-center justify-between gap-12'>
         <Image 
           src={ProfilePhoto}
           alt="Profile Image"
@@ -16,7 +16,7 @@ const AboutMe = () => {
           width={250}
           height={250}
         />
-        <p className='text-2xl font-medium text-black/80 leading-[38px]'>
+        <p className='text-2xl font-medium text-black/80 text-center md:text-start leading-[38px]'>
           Hi, my name is Atqiya, a dedicated software engineer with a strong focus on UI/UX design and web development. I have extensive experience in building scalable, user-friendly applications using technologies like React, Next.js, and Node.js. My passion lies in creating seamless digital experiences through both front-end and back-end development.
         </p>
       </div>

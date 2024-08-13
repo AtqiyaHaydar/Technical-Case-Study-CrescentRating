@@ -10,7 +10,7 @@ const navItems = [
 
 const Navbar = () => {
   return (
-    <nav className='bg-white'>
+    <nav className='hidden md:flex bg-white'>
       <ul className='flex wrapper py-6 text-black font-bold w-full justify-center items-center gap-x-12'>
         {navItems.map((item, index) => {
           return (
